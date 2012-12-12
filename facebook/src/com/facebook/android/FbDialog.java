@@ -194,4 +194,12 @@ public class FbDialog extends Dialog {
             mCrossImage.setVisibility(View.VISIBLE);
         }
     }
+    
+    @Override 
+    public void onBackPressed() {
+    	super.onBackPressed();
+    	if(this.mListener != null) {
+    		this.mListener.onCancel();
+    	}
+    }
 }
