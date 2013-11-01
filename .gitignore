@@ -15,3 +15,9 @@ examples/stream/gen/
 examples/simple/gen/
 tests/bin
 tests/gen
+
+*.idea
+
+facebook/build/*
+
+*.iml
