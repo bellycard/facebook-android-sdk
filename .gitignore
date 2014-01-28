@@ -2,6 +2,8 @@
 .gradle
 build
 
+
+*.iml
 *~
 *.DS_Store
 *.class
